@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/key/key.iml" filepath="$PROJECT_DIR$/key/key.iml" />
+      <module fileurl="file://$PROJECT_DIR$/key/minbox-plugins/minbox-plugin-security/minbox-plugin-security.iml" filepath="$PROJECT_DIR$/key/minbox-plugins/minbox-plugin-security/minbox-plugin-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/key/minbox-plugins/minbox-plugins.iml" filepath="$PROJECT_DIR$/key/minbox-plugins/minbox-plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/value/minbox-value-security/minbox-value-security.iml" filepath="$PROJECT_DIR$/value/minbox-value-security/minbox-value-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/value/value.iml" filepath="$PROJECT_DIR$/value/value.iml" />
+    </modules>
+  </component>
+</project>

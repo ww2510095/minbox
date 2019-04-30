@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--<parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.4.RELEASE</version>
+        <relativePath/> <
+    </parent> -->
+    <packaging>pom</packaging>
+    <modules>
+        <module>key</module>
+
+    </modules>
+    <groupId>org.minbox.yly</groupId>
+    <artifactId>minbox</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>minbox</name>
+    <description>简单的插件，对于spring2.x版本,可以极大的提高开发效率</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
+    </properties>
+
+    <dependencies>
+
+    </dependencies>
+
+    <url>https://github.com/ww2510095/minbox.git</url>
+    <build>
+        <plugins>
+            <!--jdk version-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

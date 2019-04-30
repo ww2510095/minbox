@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.minbox.yly.key.plugins:minbox-pluginsr:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/minbox/yly/key/plugins/minbox-pluginsr/unknown/minbox-pluginsr-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/minbox/yly/key/plugins/minbox-pluginsr/unknown/minbox-pluginsr-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/minbox/yly/key/plugins/minbox-pluginsr/unknown/minbox-pluginsr-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

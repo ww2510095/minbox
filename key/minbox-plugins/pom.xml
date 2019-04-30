@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>minbox-key</artifactId>
+        <groupId>org.minbox.yly.key</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../minbox-plugins</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <properties>
+        <main.basedir>${basedir}/../..</main.basedir>
+    </properties>
+    <artifactId>minbox-plugins</artifactId>
+    <groupId>org.minbox.yly.key.plugins</groupId>
+    <description>
+        minbox自定义插件和第三方插件的视线
+    </description>
+    <modules>
+
+        <module>minbox-plugin-security</module>
+    </modules>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="minbox-plugin-security" />
+        <module name="minbox-value-security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="key" target="${jdk.version}" />
+      <module name="minbox-parent" target="${jdk.version}" />
+      <module name="minbox-plugin-security" target="${jdk.version}" />
+      <module name="minbox-plugins" target="${jdk.version}" />
+      <module name="minbox-value-security" target="${jdk.version}" />
+      <module name="parent" target="${jdk.version}" />
+      <module name="value" target="${jdk.version}" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
